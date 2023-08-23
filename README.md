@@ -108,3 +108,8 @@ Scenario 1- User is viewing list of events from choses cities
   Given- user is view list of events from chosen cities/city
   When- user selects option to "display as chart"
   Then- the app will change the view from a list to a chart
+
+## Serverless Infrastrucuture
+
+  -The backend (Server Logic) of this app will be written with Node/Express as Lambda functions (FaaS); it will be hosted on AWS (requests come from frontend to Lambda function to data)
+
