@@ -2,7 +2,7 @@
 
 import userEvent from '@testing-library/user-event';
 import NumberOfEvents from '../components/NumberOfEvents';
-import { render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 
 describe('<NumberOfEvents /> Component', () => {
     let NumberOfEventsComponent;
