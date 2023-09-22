@@ -7,7 +7,10 @@ import { render, screen } from '@testing-library/react';
 describe('<NumberOfEvents /> Component', () => {
     let NumberOfEventsComponent;
     beforeEach(() => {
-        NumberOfEventsComponent = render(<NumberOfEvents setCurrentNOE={() => { }} />);
+        NumberOfEventsComponent = render(<NumberOfEvents
+            setCurrentNOE={() => { }}
+            setErrorAlert={() => { }}
+        />);
     });
 
     test('renders input textbox', () => {
