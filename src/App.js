@@ -33,10 +33,11 @@ const App = () => {
 
   useEffect(() => {
     if (navigator.onLine) {
-      setWarningAlert('');
-
+      // set the warning alert message to empty string
+      setWarningAlert("");
     } else {
-      setWarningAlert('You are offline!');
+      // set the warning alert message to a non-empty string
+      setWarningAlert("You are offline!");
     }
     fetchData();
   }, [currentCity, currentNOE]
