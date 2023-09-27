@@ -28,7 +28,7 @@ defineFeature(feature, test => {
         });
     });
 
-    test('User should see a list of suggestions when they search for a city.', ({ given, when, then }) => {
+    test('User should see a list of suggestions when twhey search for a city.', ({ given, when, then }) => {
         let AppComponent;
         given('the main page is open', () => {
             AppComponent = render(<App />);
